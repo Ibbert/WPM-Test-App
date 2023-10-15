@@ -33,7 +33,7 @@ The WPM Test App is a fun and engaging tool designed to test your typing speed a
 
 ## Technologies Used
 
-- **REST API**: The app interacts with the Quoteable API to retrieve sentences for typing tests.
+- **REST API**: The app interacts with the Quoteable API to retrieve sentences for typing tests ([API's Repo](https://github.com/lukePeavey/quotable)).
 
 - **HTML/CSS/JavaScript**: The user interface and interactivity of the app are built using standard web technologies.
 
