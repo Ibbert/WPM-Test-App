@@ -38,7 +38,7 @@ header {
 
 .container {
   width: 80vmin;
-  padding: 50px 30px;
+  padding: 40px 30px;
   background-color: #f5eec8;
   position: absolute;
   transform: translate(-50%, -50%);
