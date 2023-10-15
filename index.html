@@ -8,12 +8,12 @@
     <title>WPM Test App</title>
   </head>
   <body>
-    <header>WPM Test App</header>
+    <header>Words-Per-Minute Typing Test App</header>
 
     <div class="container">
       <div class="stats">
-        <p>Time: <span id="timer">0s</span></p>
-        <p>Mistakes: <span id="mistakes">0</span></p>
+        <p>Time: <span id="timerCount">0s</span></p>
+        <p>Mistakes: <span id="mistakesCount">0</span></p>
       </div>
       <div class="quote-header">Write the following text:</div>
       <div
@@ -21,7 +21,7 @@
         onmousedown="return false"
         onselectstart="return false"
       ></div>
-      <textarea id="quote-input" rows="3" placeholder="Write here"></textarea>
+      <textarea id="quote-input" rows="5" placeholder="Write here"></textarea>
 
       <button id="start-test" onclick="startTest()">Start Test</button>
       <button id="stop-test" onclick="displayResult()">Stop Test</button>
@@ -35,7 +35,16 @@
       </div>
     </div>
 
-    <div class="footer">Made by Ibbert</div>
+    <div class="footer">
+      Made by Ibbert
+      <a
+        href="https://github.com/Ibbert/WPM-Test-App"
+        target="_blank"
+        title="Visit GitHub Repo for this application"
+      >
+        GitHub
+      </a>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>

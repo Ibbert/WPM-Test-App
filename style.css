@@ -45,7 +45,37 @@ header {
   top: 50%;
   left: 50%;
   border-radius: 10px;
-  box-shadow: 30px 30px black;
+  box-shadow: 20px 20px black;
+}
+
+a {
+  text-decoration: none;
+  color: #2dba4e;
+  display: block;
+  transition-duration: 0.4s;
+}
+
+a:hover {
+  color: #000000;
+}
+
+/* Comment about Opacity in a:hover::before */
+/* How does this work. More realistically speaking, WHY does this work like that?! */
+/* It feels so wrong just by looking at it. Oh well, if it works - It works.  */
+a:hover::before {
+  content: attr(title);
+  font-weight: 500;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 1;
+  top: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0; /* Initially, hide the tooltip */
+  opacity: 1; /* Show the tooltip on hover */
 }
 
 .quote-header {

@@ -50,7 +50,7 @@ userInput.addEventListener("input", () => {
         mistakes++;
         char.classList.add("fail");
       }
-      document.getElementById("mistakes").innerText = mistakes;
+      document.getElementById("mistakesCount").innerText = mistakes;
     }
 
     //Return true if all chars are correct
@@ -71,7 +71,7 @@ function updateTimer() {
     //End test if reaches 0
     displayResult();
   } else {
-    document.getElementById("timer").innerText = --time + "s";
+    document.getElementById("timerCount").innerText = --time + "s";
   }
 }
 
