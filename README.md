@@ -1,5 +1,5 @@
 # ⌨️ WPM Test App ⌨️
-![image](https://github.com/Ibbert/WPM-Test-App/assets/105546679/3f6bbb2e-a4f3-44f8-b06b-0c6cc9275b34)
+![image](https://github.com/Ibbert/WPM-Test-App/assets/105546679/2310d366-0939-4425-9ccc-06dc0725e858)
 
 ## Overview
 
