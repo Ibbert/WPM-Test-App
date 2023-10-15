@@ -23,17 +23,17 @@ header {
 }
 
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    padding: 5px;
-    background-color: #f5eec8;
-    color: #000000;
-    text-align: center;
-    font-weight: 600;
-    border-start-end-radius: 100px;
-    border-start-start-radius: 100px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 5px;
+  background-color: #f5eec8;
+  color: #000000;
+  text-align: center;
+  font-weight: 600;
+  border-start-end-radius: 100px;
+  border-start-start-radius: 100px;
 }
 
 .container {
@@ -49,8 +49,8 @@ header {
 }
 
 .quote-header {
-    font-weight: 700;
-    text-align: center;
+  font-weight: 700;
+  text-align: center;
 }
 
 .stats {
