@@ -98,6 +98,7 @@ const displayResult = () => {
     Math.round(
       ((userInput.value.length - mistakes) / userInput.value.length) * 100
     ) + "%";
+  refreshPage();
 };
 
 //Start test
@@ -116,4 +117,11 @@ window.onload = () => {
   document.getElementById("stop-test").style.display = "none";
   userInput.disabled = true;
   renderNewQuote();
+};
+
+// Refresh application when done with test
+const refreshPage = () => {
+  setTimeout(() => {
+    location.reload(); // Reload the page
+  }, 5000);
 };
