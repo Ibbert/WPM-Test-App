@@ -45,7 +45,7 @@ header {
   top: 50%;
   left: 50%;
   border-radius: 10px;
-  box-shadow: 20px 20px black;
+  box-shadow: 10px 10px black;
 }
 
 a {
@@ -140,7 +140,7 @@ button:hover {
 }
 
 .wrapper span {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .success {

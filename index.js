@@ -1,5 +1,6 @@
 // Get Random Quotes API
-const quoteApiUrl = "https://api.quotable.io/random?minLength=150&maxLength=300";
+const quoteAPIUrl =
+  "https://api.quotable.io/random?minLength=150&maxLength=300";
 const quoteSection = document.getElementById("quote");
 const userInput = document.getElementById("quote-input");
 
@@ -11,7 +12,7 @@ let mistakes = 0;
 //Display random quotes
 const renderNewQuote = async () => {
   //Fetch content from quote api url
-  const response = await fetch(quoteApiUrl);
+  const response = await fetch(quoteAPIUrl);
   let data = await response.json();
   quote = data.content;
 
@@ -123,5 +124,5 @@ window.onload = () => {
 const refreshPage = () => {
   setTimeout(() => {
     location.reload(); // Reload the page
-  }, 5000);
+  }, 7000);
 };
